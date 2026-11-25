@@ -75,6 +75,9 @@ function Home() {
         <Link to="/lab/b" className="inline-flex min-h-11 items-center bg-lacquer px-4 text-sm text-paper">
           Mở phiên bản B
         </Link>
+        <Link to="/lab/c" className="inline-flex min-h-11 items-center bg-ink px-4 text-sm text-paper">
+          Mở phiên bản C
+        </Link>
         <button
           type="button"
           onClick={download}
@@ -102,6 +105,17 @@ function Home() {
             <li>Không ghép bản D. Bản D = ảnh của B + JavaScript sau khi thành viên 2 xong.</li>
           </ul>
         </div>
+      </section>
+
+      <section className="mt-12 border border-line bg-sheet p-6">
+        <h2 className="text-2xl">Task 2 · Phiên bản C chỉ tối ưu JavaScript</h2>
+        <p className="mt-3 max-w-3xl leading-relaxed">
+          Bản C dùng đúng ảnh JPEG của bản A, giữ nguyên câu chữ, bộ lọc vùng và hộp xem ảnh. Chỉ
+          phần JavaScript thay đổi: không tải tệp legacy.js, hộp xem ảnh là chunk riêng chỉ tải khi
+          bấm ảnh, và trang không còn kéo theo bảng số liệu image-audit của Task 1. Khung React và
+          TanStack dùng chung cho mọi phiên bản được giữ nguyên để so sánh A với C công bằng. Số liệu
+          và nhật ký ở docs/task2-js-audit.md.
+        </p>
       </section>
 
       <section className="mt-12 border border-line bg-sheet p-6">
