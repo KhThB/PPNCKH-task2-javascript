@@ -1,0 +1,68 @@
+{
+  "hanoi": {
+    "title": "Street vendors in old quarter, Hanoi, Vietnam.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Street_vendors_in_old_quarter%2C_Hanoi%2C_Vietnam.jpg",
+    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Street_vendors_in_old_quarter%2C_Hanoi%2C_Vietnam.jpg",
+    "artist": "yeowatzup",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "width": 3888,
+    "height": 2592,
+    "bytes": 8425933
+  },
+  "mekong": {
+    "title": "Can Tho, Vietnam, Floating Market, Boats.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Can_Tho%2C_Vietnam%2C_Floating_Market%2C_Boats.jpg",
+    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Can_Tho%2C_Vietnam%2C_Floating_Market%2C_Boats.jpg",
+    "artist": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "width": 3072,
+    "height": 2048,
+    "bytes": 3931315
+  },
+  "hue": {
+    "title": "Bún bò Huế-Feb 2025.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF-Feb_2025.jpg",
+    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/B%C3%BAn_b%C3%B2_Hu%E1%BA%BF-Feb_2025.jpg",
+    "artist": "TarnishedPath",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 2766,
+    "height": 2074,
+    "bytes": 1699248
+  },
+  "sapa": {
+    "title": "Rice terraces in Sa Pa 09.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_terraces_in_Sa_Pa_09.jpg",
+    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rice_terraces_in_Sa_Pa_09.jpg",
+    "artist": "Christophe95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 5184,
+    "height": 3887,
+    "bytes": 5143944
+  },
+  "saigon": {
+    "title": "2024-11-16 Ho Chi Minh City at night 3.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-11-16_Ho_Chi_Minh_City_at_night_3.jpg",
+    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/2024-11-16_Ho_Chi_Minh_City_at_night_3.jpg",
+    "artist": "Alexkom000",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "width": 4988,
+    "height": 3325,
+    "bytes": 6093468
+  },
+  "phuquoc": {
+    "title": "Phu Quoc beach 01.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phu_Quoc_beach_01.jpg",
+    "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Phu_Quoc_beach_01.jpg",
+    "artist": "Elmschrat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 4080,
+    "height": 3072,
+    "bytes": 1868549
+  }
+}

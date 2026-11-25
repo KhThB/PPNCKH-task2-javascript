@@ -1,0 +1,1 @@
+import{a as e}from"./index-DA1JBQYL.js";import{t}from"./MagazinePage-D1y2fIWR.js";var n=e(),r=()=>(0,n.jsx)(t,{variant:`b`});export{r as component};

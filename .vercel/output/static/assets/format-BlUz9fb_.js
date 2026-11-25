@@ -1,0 +1,1 @@
+function e(e){return e<1024?`${e} B`:e<1048576?`${(e/1024).toFixed(+(e<10240))} KB`:`${(e/1048576).toFixed(2)} MB`}function t(e){return`${e>0?`−`:e<0?`+`:``}${Math.abs(e).toFixed(1)}%`}function n(e,t){return e===0?0:(e-t)/e*100}export{t as n,n as r,e as t};

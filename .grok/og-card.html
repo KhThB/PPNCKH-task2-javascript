@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<title>Phố & Biển</title>
+<style>
+  @font-face {
+    font-family: "Folio Serif";
+    src: url("file:///usr/share/fonts/truetype/freefont/FreeSerif.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Folio Serif";
+    src: url("file:///usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #1c1915;
+  }
+  .frame {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #cfc4b2;
+  }
+  .scene {
+    position: absolute;
+    inset: 0;
+  }
+  .sheet {
+    position: absolute;
+    left: 150px;
+    top: 158px;
+    width: 900px;
+    height: 314px;
+    background: #f4f0e6;
+    box-shadow: 0 16px 40px rgba(28, 25, 21, 0.28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ribbon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 12px;
+    background: #8f2d1c;
+  }
+  .kicker {
+    margin: 0 0 18px 0;
+    font-family: "Folio Serif", "DejaVu Serif", serif;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 0.16em;
+    color: #6b645a;
+  }
+  .rule {
+    width: 64px;
+    height: 3px;
+    background: #8f2d1c;
+    margin: 0 0 18px 0;
+  }
+  h1 {
+    margin: 0;
+    font-family: "Folio Serif", "DejaVu Serif", serif;
+    font-weight: 400;
+    font-size: 148px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #1c1915;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .amp { font-style: italic; }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <svg class="scene" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" aria-hidden="true">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#f3eee4"/>
+          <stop offset="62%" stop-color="#ddd4c4"/>
+          <stop offset="100%" stop-color="#c9bfae"/>
+        </linearGradient>
+        <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#b7c2bb"/>
+          <stop offset="100%" stop-color="#66746f"/>
+        </linearGradient>
+        <linearGradient id="street" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#b3a898"/>
+          <stop offset="100%" stop-color="#3e3a34"/>
+        </linearGradient>
+      </defs>
+      <rect width="1200" height="630" fill="url(#sky)"/>
+      <rect x="0" y="286" width="1200" height="118" fill="url(#sea)"/>
+      <rect x="0" y="284" width="1200" height="3" fill="#f4f0e6" opacity="0.8"/>
+      <rect x="0" y="400" width="1200" height="230" fill="url(#street)"/>
+      <polygon points="0,150 310,230 310,500 0,560" fill="#e8e0d2"/>
+      <polygon points="310,230 450,262 450,455 310,488" fill="#d2c8b6"/>
+      <polygon points="450,262 530,286 530,420 450,442" fill="#bfb4a2"/>
+      <polygon points="1200,128 860,232 860,520 1200,580" fill="#efe8da"/>
+      <polygon points="860,232 700,268 700,468 860,508" fill="#cbbfae"/>
+      <polygon points="700,268 620,292 620,430 700,452" fill="#b3a898"/>
+      <polygon points="530,420 620,430 700,508 450,488" fill="#8a8174"/>
+      <polygon points="450,488 700,508 760,630 390,630" fill="#6b645a"/>
+      <rect x="48" y="248" width="18" height="36" fill="#1c1915"/>
+      <rect x="84" y="260" width="16" height="34" fill="#1c1915" opacity="0.8"/>
+      <rect x="118" y="274" width="14" height="30" fill="#1c1915" opacity="0.55"/>
+      <rect x="168" y="360" width="34" height="74" fill="#8f2d1c"/>
+      <rect x="1040" y="250" width="14" height="30" fill="#1c1915" opacity="0.7"/>
+      <rect x="1080" y="268" width="14" height="26" fill="#1c1915" opacity="0.5"/>
+      <rect x="980" y="290" width="12" height="22" fill="#1c1915" opacity="0.4"/>
+    </svg>
+    <div class="sheet">
+      <div class="ribbon"></div>
+      <p class="kicker">Tối ưu hình ảnh</p>
+      <div class="rule"></div>
+      <h1>Phố <span class="amp">&</span> Biển</h1>
+    </div>
+  </div>
+</body>
+</html>
