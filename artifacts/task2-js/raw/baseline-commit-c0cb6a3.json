@@ -1,0 +1,1056 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "runs": 5,
+  "results": [
+    {
+      "path": "/lab/a",
+      "run": 1,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148307,
+        "unusedBytes": 314376,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121716,
+            "unused": 312977
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 241.4,
+        "TaskDuration": 550.9,
+        "JSHeapUsedSize": 3539096
+      },
+      "paint": {
+        "fcp": 1964,
+        "domContentLoaded": 1949.2,
+        "load": 5818.5
+      },
+      "longTasks": {
+        "count": 1,
+        "blockingMs": 89
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 2,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148307,
+        "unusedBytes": 314376,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121716,
+            "unused": 312977
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 116.7,
+        "TaskDuration": 299.4,
+        "JSHeapUsedSize": 3606400
+      },
+      "paint": {
+        "fcp": 276,
+        "domContentLoaded": 255.2,
+        "load": 5187.9
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 3,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148119,
+        "unusedBytes": 314564,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121528,
+            "unused": 313165
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 78.8,
+        "TaskDuration": 251.5,
+        "JSHeapUsedSize": 3560252
+      },
+      "paint": {
+        "fcp": 412,
+        "domContentLoaded": 387.2,
+        "load": 4869.7
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 4,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148119,
+        "unusedBytes": 314564,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121528,
+            "unused": 313165
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 129.4,
+        "TaskDuration": 327.3,
+        "JSHeapUsedSize": 3526836
+      },
+      "paint": {
+        "fcp": 300,
+        "domContentLoaded": 258,
+        "load": 4570.5
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 5,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148119,
+        "unusedBytes": 314564,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/a-BxKzsoQ4.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121528,
+            "unused": 313165
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 84.5,
+        "TaskDuration": 273.1,
+        "JSHeapUsedSize": 3587852
+      },
+      "paint": {
+        "fcp": 332,
+        "domContentLoaded": 290.2,
+        "load": 4341.6
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 1,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148290,
+        "unusedBytes": 314393,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121114,
+            "unused": 313579
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 97.7,
+        "TaskDuration": 241.7,
+        "JSHeapUsedSize": 3559036
+      },
+      "paint": {
+        "fcp": 256,
+        "domContentLoaded": 248.5,
+        "load": 1613.1
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 2,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148290,
+        "unusedBytes": 314393,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121114,
+            "unused": 313579
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 99.9,
+        "TaskDuration": 218,
+        "JSHeapUsedSize": 3531700
+      },
+      "paint": {
+        "fcp": 244,
+        "domContentLoaded": 179.2,
+        "load": 1835.3
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 3,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148290,
+        "unusedBytes": 314393,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121114,
+            "unused": 313579
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 75.5,
+        "TaskDuration": 180.3,
+        "JSHeapUsedSize": 3504996
+      },
+      "paint": {
+        "fcp": 196,
+        "domContentLoaded": 144.2,
+        "load": 1543.7
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 4,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148290,
+        "unusedBytes": 314393,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121114,
+            "unused": 313579
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 78.1,
+        "TaskDuration": 199.8,
+        "JSHeapUsedSize": 3530592
+      },
+      "paint": {
+        "fcp": 176,
+        "domContentLoaded": 126.8,
+        "load": 1479.4
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 5,
+      "js": {
+        "requests": 5,
+        "transferred": 124363,
+        "resource": 462999,
+        "files": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "transferred": 378,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "transferred": 2367,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "transferred": 117058,
+            "resource": 434845
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "coverage": {
+        "totalBytes": 462683,
+        "usedBytes": 148290,
+        "unusedBytes": 314393,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-BC-PLJhP.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/assets/MagazinePage-CwUXwuQ1.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-BgzlAxxQ.js",
+            "total": 434693,
+            "used": 121114,
+            "unused": 313579
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 68.4,
+        "TaskDuration": 166.4,
+        "JSHeapUsedSize": 3526776
+      },
+      "paint": {
+        "fcp": 224,
+        "domContentLoaded": 187.8,
+        "load": 1522.6
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    }
+  ]
+}
