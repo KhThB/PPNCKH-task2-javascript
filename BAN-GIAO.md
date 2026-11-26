@@ -1,4 +1,6 @@
-# Bàn giao cho thành viên 3 (đo chính thức)
+# Bàn giao dự án (Task 1, 2, 3 đã hoàn thành)
+
+> Cập nhật: Task 3 đã xong — bản D tại `/lab/d`, phép đo chính thức và phân tích ở `docs/task3-measurement.md`. Phần dưới giữ lại để tái lập phép đo.
 
 Repository này chứa toàn bộ dự án PPNCKH (website thí nghiệm Phố & Biển) kèm phần Task 2.
 
@@ -7,9 +9,10 @@ Repository này chứa toàn bộ dự án PPNCKH (website thí nghiệm Phố &
 | A đối chứng | `/lab/a` | JPEG 2400 px | Chưa tối ưu | — |
 | B | `/lab/b` | AVIF/WebP responsive, lazy | Giống A | Thành viên 1 |
 | C | `/lab/c` | Giống A | Đã tối ưu | Thành viên 2 |
-| D | (chưa có) | Lấy từ B | Lấy từ C (`MagazinePageC.tsx`) | Nhóm ghép |
+| D | `/lab/d` | Giống B | Giống C | Task 3 |
 
-- Nhánh `main`: đã gộp Task 2 (A, B, C đều có).
+- Nhánh `main`: đã gộp Task 2 và Task 3 (A, B, C, D đều có).
+- Nhánh `task3-measurement`: bản D, script đo chính thức, phân tích 2 × 2.
 - Nhánh `task2-javascript`: nhánh làm việc gốc của Task 2, 3 commit tách theo ý nghĩa.
 - Commit mốc A: `c0cb6a364adc8bb89674ad214e848536806d0a6a`.
 
@@ -46,6 +49,7 @@ node scripts/task2-summarize-lighthouse.mjs artifacts/task3
 ## Tài liệu
 
 - Task 1 (ảnh): các trang hồ sơ trong website (`/`, `/phuong-phap`, `/phan-tich`, `/nhat-ky`…) và nút “Tải biên bản Markdown”.
+- Task 3 (bản D, đo chính thức, kết luận): `docs/task3-measurement.md`; bằng chứng trong `artifacts/task3`. Đo lại: `bash scripts/task3-lighthouse.sh mobile 5` rồi `node scripts/task3-analyze.mjs`.
 - Task 2 (JavaScript): `docs/task2-js-audit.md` — nhật ký kỹ thuật, bảng A–C, kiểm thử, giới hạn; bằng chứng đo trong `artifacts/task2-js`.
 
 ## Lưu ý từ Task 2

@@ -1,0 +1,97 @@
+{
+  "mobile": {
+    "a": {
+      "total": 4750494,
+      "req": 18,
+      "img": 4607055,
+      "imgReq": 8,
+      "js": 124465,
+      "jsReq": 5,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v"
+      ]
+    },
+    "b": {
+      "total": 729020,
+      "req": 18,
+      "img": 581496,
+      "imgReq": 8,
+      "js": 124465,
+      "jsReq": 5,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v"
+      ]
+    },
+    "c": {
+      "total": 4746218,
+      "req": 15,
+      "img": 4607055,
+      "imgReq": 8,
+      "js": 120280,
+      "jsReq": 2,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v"
+      ]
+    },
+    "d": {
+      "total": 725344,
+      "req": 15,
+      "img": 581496,
+      "imgReq": 8,
+      "js": 120889,
+      "jsReq": 2,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v"
+      ]
+    }
+  },
+  "desktop": {
+    "a": {
+      "total": 4750494,
+      "req": 18,
+      "img": 4607055,
+      "imgReq": 8,
+      "js": 124465,
+      "jsReq": 5,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v",
+        "Tập san thí nghiệm số 01. Nội dung và mã"
+      ]
+    },
+    "b": {
+      "total": 831003,
+      "req": 18,
+      "img": 683479,
+      "imgReq": 8,
+      "js": 124465,
+      "jsReq": 5,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v",
+        "Tập san thí nghiệm số 01. Nội dung và mã"
+      ]
+    },
+    "c": {
+      "total": 4746218,
+      "req": 15,
+      "img": 4607055,
+      "imgReq": 8,
+      "js": 120280,
+      "jsReq": 2,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v",
+        "Tập san thí nghiệm số 01. Nội dung và ản"
+      ]
+    },
+    "d": {
+      "total": 827327,
+      "req": 15,
+      "img": 683479,
+      "imgReq": 8,
+      "js": 120889,
+      "jsReq": 2,
+      "lcpEl": [
+        "Phố cổ Hội An lúc chạng vạng, đèn lồng v"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2576 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "runs": 5,
+  "results": [
+    {
+      "path": "/lab/a",
+      "run": 1,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 16,
+        "transferred": 4747888
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148387,
+        "unusedBytes": 314733,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121796,
+            "unused": 313334
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 65.8,
+        "TaskDuration": 190.2,
+        "JSHeapUsedSize": 3633620
+      },
+      "paint": {
+        "fcp": 960,
+        "domContentLoaded": 948.7,
+        "load": 3071.8
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 2,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 16,
+        "transferred": 4747888
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148387,
+        "unusedBytes": 314733,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121796,
+            "unused": 313334
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 79.3,
+        "TaskDuration": 179.6,
+        "JSHeapUsedSize": 3570176
+      },
+      "paint": {
+        "fcp": 164,
+        "domContentLoaded": 158,
+        "load": 2721.5
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 3,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 16,
+        "transferred": 4747888
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148387,
+        "unusedBytes": 314733,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121796,
+            "unused": 313334
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 39.1,
+        "TaskDuration": 150.1,
+        "JSHeapUsedSize": 3571868
+      },
+      "paint": {
+        "fcp": 180,
+        "domContentLoaded": 158.4,
+        "load": 2678.7
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 4,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 16,
+        "transferred": 4747888
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148387,
+        "unusedBytes": 314733,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121796,
+            "unused": 313334
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 67.2,
+        "TaskDuration": 163.6,
+        "JSHeapUsedSize": 3556956
+      },
+      "paint": {
+        "fcp": 256,
+        "domContentLoaded": 254,
+        "load": 2785.6
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/a",
+      "run": 5,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 16,
+        "transferred": 4747888
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148387,
+        "unusedBytes": 314733,
+        "unusedPct": 68,
+        "perFile": [
+          {
+            "url": "/assets/a-BEHrOTuR.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 4885,
+            "unused": 1322
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/a",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/a",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121796,
+            "unused": 313334
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 68.1,
+        "TaskDuration": 147.3,
+        "JSHeapUsedSize": 3550212
+      },
+      "paint": {
+        "fcp": 132,
+        "domContentLoaded": 122.1,
+        "load": 2477.1
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 1,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 15,
+        "transferred": 726105
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148558,
+        "unusedBytes": 314562,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121382,
+            "unused": 313748
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 44.8,
+        "TaskDuration": 117.9,
+        "JSHeapUsedSize": 3592076
+      },
+      "paint": {
+        "fcp": 112,
+        "domContentLoaded": 86,
+        "load": 940.8
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 2,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 15,
+        "transferred": 726105
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148558,
+        "unusedBytes": 314562,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121382,
+            "unused": 313748
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 46.6,
+        "TaskDuration": 109.5,
+        "JSHeapUsedSize": 3533764
+      },
+      "paint": {
+        "fcp": 160,
+        "domContentLoaded": 132.5,
+        "load": 993.5
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 3,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 15,
+        "transferred": 726105
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148558,
+        "unusedBytes": 314562,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121382,
+            "unused": 313748
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 46.7,
+        "TaskDuration": 119.2,
+        "JSHeapUsedSize": 3512340
+      },
+      "paint": {
+        "fcp": 120,
+        "domContentLoaded": 69.2,
+        "load": 987.1
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 4,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 15,
+        "transferred": 726105
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148558,
+        "unusedBytes": 314562,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121382,
+            "unused": 313748
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 44.5,
+        "TaskDuration": 103.1,
+        "JSHeapUsedSize": 3537536
+      },
+      "paint": {
+        "fcp": 144,
+        "domContentLoaded": 112.8,
+        "load": 978.4
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/b",
+      "run": 5,
+      "js": {
+        "requests": 5,
+        "transferred": 124465,
+        "resource": 463454,
+        "files": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "transferred": 385,
+            "resource": 148
+          },
+          {
+            "url": "/lab/legacy.js",
+            "transferred": 761,
+            "resource": 1097
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "transferred": 2354,
+            "resource": 6421
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "transferred": 3799,
+            "resource": 20488
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 15,
+        "transferred": 726105
+      },
+      "coverage": {
+        "totalBytes": 463120,
+        "usedBytes": 148558,
+        "unusedBytes": 314562,
+        "unusedPct": 67.9,
+        "perFile": [
+          {
+            "url": "/assets/b-DkOHMrE9.js",
+            "total": 148,
+            "used": 148,
+            "unused": 0
+          },
+          {
+            "url": "/assets/MagazinePage-acuncN8R.js",
+            "total": 6207,
+            "used": 5470,
+            "unused": 737
+          },
+          {
+            "url": "/lab/legacy.js",
+            "total": 1050,
+            "used": 1030,
+            "unused": 20
+          },
+          {
+            "url": "/lab/b",
+            "total": 837,
+            "used": 780,
+            "unused": 57
+          },
+          {
+            "url": "/lab/b",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 121382,
+            "unused": 313748
+          },
+          {
+            "url": "/assets/image-audit-F95emkHB.js",
+            "total": 19692,
+            "used": 19692,
+            "unused": 0
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 43.1,
+        "TaskDuration": 97.3,
+        "JSHeapUsedSize": 3537304
+      },
+      "paint": {
+        "fcp": 136,
+        "domContentLoaded": 105.9,
+        "load": 936.9
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": true,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/c",
+      "run": 1,
+      "js": {
+        "requests": 2,
+        "transferred": 120280,
+        "resource": 443681,
+        "files": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "transferred": 3114,
+            "resource": 8381
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 13,
+        "transferred": 4743612
+      },
+      "coverage": {
+        "totalBytes": 443939,
+        "usedBytes": 128861,
+        "unusedBytes": 315078,
+        "unusedPct": 71,
+        "perFile": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "total": 7951,
+            "used": 7444,
+            "unused": 507
+          },
+          {
+            "url": "/lab/c",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/c",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 120616,
+            "unused": 314514
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 50,
+        "TaskDuration": 171.3,
+        "JSHeapUsedSize": 3433820
+      },
+      "paint": {
+        "fcp": 136,
+        "domContentLoaded": 123.7,
+        "load": 2614.9
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/c",
+      "run": 2,
+      "js": {
+        "requests": 2,
+        "transferred": 120280,
+        "resource": 443681,
+        "files": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "transferred": 3114,
+            "resource": 8381
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 13,
+        "transferred": 4743612
+      },
+      "coverage": {
+        "totalBytes": 443939,
+        "usedBytes": 127934,
+        "unusedBytes": 316005,
+        "unusedPct": 71.2,
+        "perFile": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "total": 7951,
+            "used": 7444,
+            "unused": 507
+          },
+          {
+            "url": "/lab/c",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/c",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 119689,
+            "unused": 315441
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 52.1,
+        "TaskDuration": 181.1,
+        "JSHeapUsedSize": 3433820
+      },
+      "paint": {
+        "fcp": 96,
+        "domContentLoaded": 81.2,
+        "load": 2538.9
+      },
+      "longTasks": {
+        "count": 1,
+        "blockingMs": 3
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/c",
+      "run": 3,
+      "js": {
+        "requests": 2,
+        "transferred": 120280,
+        "resource": 443681,
+        "files": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "transferred": 3114,
+            "resource": 8381
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 13,
+        "transferred": 4743612
+      },
+      "coverage": {
+        "totalBytes": 443939,
+        "usedBytes": 128861,
+        "unusedBytes": 315078,
+        "unusedPct": 71,
+        "perFile": [
+          {
+            "url": "/lab/c",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/c",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "total": 7951,
+            "used": 7444,
+            "unused": 507
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 120616,
+            "unused": 314514
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 59.6,
+        "TaskDuration": 135.9,
+        "JSHeapUsedSize": 3429372
+      },
+      "paint": {
+        "fcp": 140,
+        "domContentLoaded": 135.5,
+        "load": 2519.7
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/c",
+      "run": 4,
+      "js": {
+        "requests": 2,
+        "transferred": 120280,
+        "resource": 443681,
+        "files": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "transferred": 3114,
+            "resource": 8381
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 13,
+        "transferred": 4743612
+      },
+      "coverage": {
+        "totalBytes": 443939,
+        "usedBytes": 127934,
+        "unusedBytes": 316005,
+        "unusedPct": 71.2,
+        "perFile": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "total": 7951,
+            "used": 7444,
+            "unused": 507
+          },
+          {
+            "url": "/lab/c",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/c",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 119689,
+            "unused": 315441
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 53.7,
+        "TaskDuration": 141.9,
+        "JSHeapUsedSize": 3438384
+      },
+      "paint": {
+        "fcp": 132,
+        "domContentLoaded": 97.6,
+        "load": 2522.3
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/c",
+      "run": 5,
+      "js": {
+        "requests": 2,
+        "transferred": 120280,
+        "resource": 443681,
+        "files": [
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "transferred": 3114,
+            "resource": 8381
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 8,
+        "transferred": 4607055,
+        "files": [
+          {
+            "url": "/lab/a/halong.jpg",
+            "transferred": 535213
+          },
+          {
+            "url": "/lab/a/hue.jpg",
+            "transferred": 513317
+          },
+          {
+            "url": "/lab/a/sapa.jpg",
+            "transferred": 948923
+          },
+          {
+            "url": "/lab/a/hanoi.jpg",
+            "transferred": 541217
+          },
+          {
+            "url": "/lab/a/hoian.jpg",
+            "transferred": 834552
+          },
+          {
+            "url": "/lab/a/mekong.jpg",
+            "transferred": 381572
+          },
+          {
+            "url": "/lab/a/saigon.jpg",
+            "transferred": 420022
+          },
+          {
+            "url": "/lab/a/phuquoc.jpg",
+            "transferred": 432239
+          }
+        ]
+      },
+      "page": {
+        "requests": 13,
+        "transferred": 4743612
+      },
+      "coverage": {
+        "totalBytes": 443939,
+        "usedBytes": 127934,
+        "unusedBytes": 316005,
+        "unusedPct": 71.2,
+        "perFile": [
+          {
+            "url": "/lab/c",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/assets/c-CN1wn7As.js",
+            "total": 7951,
+            "used": 7444,
+            "unused": 507
+          },
+          {
+            "url": "/lab/c",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 119689,
+            "unused": 315441
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 53.4,
+        "TaskDuration": 121.4,
+        "JSHeapUsedSize": 3428560
+      },
+      "paint": {
+        "fcp": 128,
+        "domContentLoaded": 109.2,
+        "load": 2492.6
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/d",
+      "run": 1,
+      "js": {
+        "requests": 2,
+        "transferred": 120889,
+        "resource": 448440,
+        "files": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "transferred": 3723,
+            "resource": 13140
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 12,
+        "transferred": 722429
+      },
+      "coverage": {
+        "totalBytes": 448700,
+        "usedBytes": 133074,
+        "unusedBytes": 315626,
+        "unusedPct": 70.3,
+        "perFile": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "total": 12712,
+            "used": 12194,
+            "unused": 518
+          },
+          {
+            "url": "/lab/d",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/d",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 120079,
+            "unused": 315051
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 44.6,
+        "TaskDuration": 103.1,
+        "JSHeapUsedSize": 3518216
+      },
+      "paint": {
+        "fcp": 112,
+        "domContentLoaded": 89.8,
+        "load": 1021.3
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/d",
+      "run": 2,
+      "js": {
+        "requests": 2,
+        "transferred": 120889,
+        "resource": 448440,
+        "files": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "transferred": 3723,
+            "resource": 13140
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          }
+        ]
+      },
+      "page": {
+        "requests": 12,
+        "transferred": 722429
+      },
+      "coverage": {
+        "totalBytes": 448700,
+        "usedBytes": 133074,
+        "unusedBytes": 315626,
+        "unusedPct": 70.3,
+        "perFile": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "total": 12712,
+            "used": 12194,
+            "unused": 518
+          },
+          {
+            "url": "/lab/d",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/d",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 120079,
+            "unused": 315051
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 48.2,
+        "TaskDuration": 134.2,
+        "JSHeapUsedSize": 3475660
+      },
+      "paint": {
+        "fcp": 144,
+        "domContentLoaded": 136.9,
+        "load": 1016.7
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/d",
+      "run": 3,
+      "js": {
+        "requests": 2,
+        "transferred": 120889,
+        "resource": 448440,
+        "files": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "transferred": 3723,
+            "resource": 13140
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 12,
+        "transferred": 722429
+      },
+      "coverage": {
+        "totalBytes": 448700,
+        "usedBytes": 133074,
+        "unusedBytes": 315626,
+        "unusedPct": 70.3,
+        "perFile": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "total": 12712,
+            "used": 12194,
+            "unused": 518
+          },
+          {
+            "url": "/lab/d",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/d",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 120079,
+            "unused": 315051
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 47.5,
+        "TaskDuration": 133.2,
+        "JSHeapUsedSize": 3514496
+      },
+      "paint": {
+        "fcp": 128,
+        "domContentLoaded": 113.1,
+        "load": 1003.2
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/d",
+      "run": 4,
+      "js": {
+        "requests": 2,
+        "transferred": 120889,
+        "resource": 448440,
+        "files": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "transferred": 3723,
+            "resource": 13140
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 12,
+        "transferred": 722429
+      },
+      "coverage": {
+        "totalBytes": 448700,
+        "usedBytes": 133074,
+        "unusedBytes": 315626,
+        "unusedPct": 70.3,
+        "perFile": [
+          {
+            "url": "/lab/d",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/lab/d",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "total": 12712,
+            "used": 12194,
+            "unused": 518
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 120079,
+            "unused": 315051
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 51.6,
+        "TaskDuration": 120.1,
+        "JSHeapUsedSize": 3489300
+      },
+      "paint": {
+        "fcp": 92,
+        "domContentLoaded": 82.9,
+        "load": 933.2
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "path": "/lab/d",
+      "run": 5,
+      "js": {
+        "requests": 2,
+        "transferred": 120889,
+        "resource": 448440,
+        "files": [
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "transferred": 3723,
+            "resource": 13140
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "transferred": 117166,
+            "resource": 435300
+          }
+        ]
+      },
+      "images": {
+        "requests": 7,
+        "transferred": 581187,
+        "files": [
+          {
+            "url": "/lab/b/halong-480.avif",
+            "transferred": 31537
+          },
+          {
+            "url": "/lab/b/hue-480.avif",
+            "transferred": 30690
+          },
+          {
+            "url": "/lab/b/hoian-1600.avif",
+            "transferred": 333124
+          },
+          {
+            "url": "/lab/b/sapa-800.avif",
+            "transferred": 117152
+          },
+          {
+            "url": "/lab/b/mekong-480.avif",
+            "transferred": 20381
+          },
+          {
+            "url": "/lab/b/hanoi-480.avif",
+            "transferred": 28046
+          },
+          {
+            "url": "/lab/b/saigon-480.avif",
+            "transferred": 20257
+          }
+        ]
+      },
+      "page": {
+        "requests": 12,
+        "transferred": 722429
+      },
+      "coverage": {
+        "totalBytes": 448700,
+        "usedBytes": 133074,
+        "unusedBytes": 315626,
+        "unusedPct": 70.3,
+        "perFile": [
+          {
+            "url": "/lab/d",
+            "total": 802,
+            "used": 745,
+            "unused": 57
+          },
+          {
+            "url": "/assets/d-YT9p8HSY.js",
+            "total": 12712,
+            "used": 12194,
+            "unused": 518
+          },
+          {
+            "url": "/lab/d",
+            "total": 56,
+            "used": 56,
+            "unused": 0
+          },
+          {
+            "url": "/assets/index-C4SHpMBB.js",
+            "total": 435130,
+            "used": 120079,
+            "unused": 315051
+          }
+        ]
+      },
+      "metrics": {
+        "ScriptDuration": 47.5,
+        "TaskDuration": 117.6,
+        "JSHeapUsedSize": 3493416
+      },
+      "paint": {
+        "fcp": 104,
+        "domContentLoaded": 90,
+        "load": 968.6
+      },
+      "longTasks": {
+        "count": 0,
+        "blockingMs": 0
+      },
+      "legacyGlobal": false,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    }
+  ]
+}

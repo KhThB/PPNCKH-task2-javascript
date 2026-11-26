@@ -162,7 +162,7 @@ Kiểm tra kỹ thuật:
 1. **Dung lượng.** Trong phạm vi trang, nhóm biện pháp giảm 70% byte JavaScript và 3 request. So với cả trang, mức giảm chỉ 3–4% vì 94% byte nằm ở khung React/TanStack dùng chung, không thay đổi. Đây là điều đã dự liệu trong thiết kế thí nghiệm: giữ khung chung để so sánh công bằng.
 2. **Main thread.** TBT và Script Evaluation giảm ở cả hai chế độ Lighthouse (TBT khoảng −50%, evaluate khoảng −10 đến −19%). Mức giảm vượt quá phần byte bỏ đi, nên có thể có phần đóng góp từ việc không còn script đồng bộ chen vào giữa lúc phân tích HTML và hydrate. Tuy vậy, TBT ở cả hai bản nhỏ (dưới 150 ms) và các lượt chồng lấn một phần (A thấp nhất 44 ms, C cao nhất 76 ms). Kết luận ở mức: *có xu hướng giảm rõ, cần thành viên 3 xác nhận bằng phép đo chính thức.*
 3. **FCP.** Với throttling thực, FCP của C ổn định hơn và thấp hơn A khoảng 0,5 s, 5 lượt không chồng lấn. Giải thích hợp lý nhất: A có `legacy.js` chặn parser ở đầu `<body>`; trên mạng chậm, trình duyệt phải chờ thêm một vòng tải trước khi vẽ. Nhưng chế độ simulate cho kết quả ngược chiều, và trên máy không giới hạn thì gần như bằng nhau. Theo nguyên tắc của kế hoạch, **không kết luận chắc chắn rằng tối ưu JavaScript cải thiện FCP**; chỉ ghi nhận là có dấu hiệu trong điều kiện mạng chậm.
-4. **LCP, CLS.** LCP do ảnh JPEG 2 400 px quyết định (≈2,4 MB ảnh trên 4G chậm), C không đổi ảnh nên LCP thay đổi trong biên dao động. CLS bằng 0 ở cả hai. Muốn cải thiện LCP cần bản B/D.
+4. **LCP, CLS.** LCP do ảnh JPEG 2 400 px quyết định (8 ảnh, 4,6 MB truyền trên 4G chậm), C không đổi ảnh nên LCP thay đổi trong biên dao động. CLS bằng 0 ở cả hai. Muốn cải thiện LCP cần bản B/D.
 5. **Tương tác.** Lần bấm ảnh đầu tiên ở C cần tải thêm 536 B (một request). Trên mạng chậm có thể thấy lớp nền tối trước khi ảnh hiện; các lần sau dùng chunk đã có trong bộ nhớ.
 
 ## 9. Giới hạn
@@ -202,3 +202,7 @@ node scripts/task2-summarize-lighthouse.mjs artifacts/task2-js/lighthouse-devtoo
 | `lighthouse/*.json.gz`, `lighthouse-summary.json` | 10 báo cáo Lighthouse, throttling giả lập |
 | `har/lab-a.har`, `har/lab-c.har` | HAR lần tải mặc định |
 | `screens/*.jpg` | Ảnh chụp toàn trang A, C và hộp xem ảnh của C |
+
+## 13. Cập nhật sau Task 3
+
+Phép đo chính thức của Task 3 (`docs/task3-measurement.md`) thay thế các số thời gian ở mục 6.3. Ở lần đo đó TBT của cả A và C đều rất nhỏ (trung vị 26 ms và 8 ms, không có ý nghĩa thống kê). Mức giảm FCP của C so với A (−527 ms, p = 0,008) được xác nhận. Byte và số request ở mục 6.1 không đổi.
