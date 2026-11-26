@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * Task 2 — checklist kiểm thử chức năng A, B, C (chạy trên bản build + `vite preview`).
+ * Task 2/3 — checklist kiểm thử chức năng A, B, C, D (chạy trên bản build + `vite preview`).
  *
  *   node scripts/task2-check-functional.mjs --base http://127.0.0.1:4173 [--chrome <đường dẫn chrome>]
  *
  * Kiểm tra cho từng phiên bản: số ảnh mặc định, lọc Bắc / Trung / Nam / Tất cả, mở ảnh,
  * đóng bằng nút Đóng, đóng bằng bấm nền, lỗi Console. Riêng C: ảnh tải về trùng với A,
- * không có legacy.js, chunk Lightbox chưa tải trước khi bấm ảnh và chỉ tải sau khi bấm.
+ * (D: ảnh trùng B), không có legacy.js, chunk Lightbox chưa tải trước khi bấm ảnh và chỉ tải sau khi bấm.
  * Thoát với mã 1 nếu có mục không đạt.
  */
 import { chromium } from "playwright";
@@ -25,7 +25,7 @@ const browser = await chromium.launch({ headless: true, executablePath: args.chr
 const rows = [];
 const imagesByVersion = {};
 
-for (const version of ["a", "b", "c"]) {
+for (const version of ["a", "b", "c", "d"]) {
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   await context.route(
     (url) => BLOCK.some((h) => url.hostname.endsWith(h)),
@@ -58,7 +58,7 @@ for (const version of ["a", "b", "c"]) {
 
   const legacy = await page.evaluate(() => typeof window.__phoBienLegacy !== "undefined");
   const legacyRequested = scripts.includes("/lab/legacy.js");
-  if (version === "c") {
+  if (version === "c" || version === "d") {
     check("Không tải legacy.js", !legacyRequested && !legacy);
     const lightboxBefore = scripts.some((s) => /\/Lightbox-[\w-]+\.js$/.test(s));
     check("Chunk Lightbox chưa tải trước khi bấm ảnh", !lightboxBefore, scripts.join(" "));
@@ -81,9 +81,10 @@ for (const version of ["a", "b", "c"]) {
   await dialog.waitFor({ state: "visible", timeout: 5000 }).catch(() => {});
   const shown = await dialog.isVisible();
   const src = shown ? await dialog.locator("img").getAttribute("src") : null;
-  const expectedSrc = version === "b" ? /^\/lab\/b\/hoian-/ : /^\/lab\/a\/hoian\.jpg$/;
+  const expectedSrc =
+    version === "b" || version === "d" ? /^\/lab\/b\/hoian-/ : /^\/lab\/a\/hoian\.jpg$/;
   check("Bấm ảnh bìa mở hộp xem ảnh đúng ảnh", shown && expectedSrc.test(src ?? ""), String(src));
-  if (version === "c") {
+  if (version === "c" || version === "d") {
     const lightboxAfter = scripts.some((s) => /\/Lightbox-[\w-]+\.js$/.test(s));
     check("Chunk Lightbox tải sau khi bấm ảnh", lightboxAfter);
   }
@@ -119,6 +120,13 @@ rows.push({
   name: "Ảnh tải về giống hệt A",
   ok: sameImages,
   detail: imagesByVersion.c.join(" "),
+});
+const sameAsB = JSON.stringify(imagesByVersion.b) === JSON.stringify(imagesByVersion.d);
+rows.push({
+  version: "d",
+  name: "Ảnh tải về giống hệt B",
+  ok: sameAsB,
+  detail: `B: ${imagesByVersion.b.join(" ")} | D: ${imagesByVersion.d.join(" ")}`,
 });
 await browser.close();
 

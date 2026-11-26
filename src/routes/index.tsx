@@ -78,6 +78,9 @@ function Home() {
         <Link to="/lab/c" className="inline-flex min-h-11 items-center bg-ink px-4 text-sm text-paper">
           Mở phiên bản C
         </Link>
+        <Link to="/lab/d" className="inline-flex min-h-11 items-center bg-ink px-4 text-sm text-paper">
+          Mở phiên bản D
+        </Link>
         <button
           type="button"
           onClick={download}
@@ -115,6 +118,17 @@ function Home() {
           bấm ảnh, và trang không còn kéo theo bảng số liệu image-audit của Task 1. Khung React và
           TanStack dùng chung cho mọi phiên bản được giữ nguyên để so sánh A với C công bằng. Số liệu
           và nhật ký ở docs/task2-js-audit.md.
+        </p>
+      </section>
+
+      <section className="mt-12 border border-line bg-sheet p-6">
+        <h2 className="text-2xl">Task 3 · Bản D và phép đo chính thức</h2>
+        <p className="mt-3 max-w-3xl leading-relaxed">
+          Bản D giao ảnh như bản B và dùng JavaScript của bản C. Cả bốn bản được đo bằng Lighthouse, 5
+          vòng xen kẽ, cấu hình di động và desktop. Trên di động, tối ưu ảnh đưa LCP từ 25,8 s xuống
+          khoảng 2,8 s và điểm từ 73 lên 95. Tối ưu JavaScript chỉ giảm FCP khoảng 0,5 s khi ảnh còn
+          nặng. Bản D có trung vị tốt nhất (LCP 2,43 s, điểm 97) nhưng không khác bản B có ý nghĩa
+          thống kê. Số liệu đầy đủ ở docs/task3-measurement.md.
         </p>
       </section>
 

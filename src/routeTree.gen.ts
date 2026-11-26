@@ -19,6 +19,7 @@ import { Route as PhuongPhapRouteImport } from './routes/phuong-phap'
 import { Route as LabARouteImport } from './routes/lab/a'
 import { Route as LabBRouteImport } from './routes/lab/b'
 import { Route as LabCRouteImport } from './routes/lab/c'
+import { Route as LabDRouteImport } from './routes/lab/d'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -70,6 +71,11 @@ const LabCRoute = LabCRouteImport.update({
   path: '/lab/c',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LabDRoute = LabDRouteImport.update({
+  id: '/lab/d',
+  path: '/lab/d',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -82,6 +88,7 @@ export interface FileRoutesByFullPath {
   '/lab/a': typeof LabARoute
   '/lab/b': typeof LabBRoute
   '/lab/c': typeof LabCRoute
+  '/lab/d': typeof LabDRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -94,6 +101,7 @@ export interface FileRoutesByTo {
   '/lab/a': typeof LabARoute
   '/lab/b': typeof LabBRoute
   '/lab/c': typeof LabCRoute
+  '/lab/d': typeof LabDRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -107,6 +115,7 @@ export interface FileRoutesById {
   '/lab/a': typeof LabARoute
   '/lab/b': typeof LabBRoute
   '/lab/c': typeof LabCRoute
+  '/lab/d': typeof LabDRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -121,6 +130,7 @@ export interface FileRouteTypes {
     | '/lab/a'
     | '/lab/b'
     | '/lab/c'
+    | '/lab/d'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -133,6 +143,7 @@ export interface FileRouteTypes {
     | '/lab/a'
     | '/lab/b'
     | '/lab/c'
+    | '/lab/d'
   id:
     | '__root__'
     | '/'
@@ -145,6 +156,7 @@ export interface FileRouteTypes {
     | '/lab/a'
     | '/lab/b'
     | '/lab/c'
+    | '/lab/d'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -158,6 +170,7 @@ export interface RootRouteChildren {
   LabARoute: typeof LabARoute
   LabBRoute: typeof LabBRoute
   LabCRoute: typeof LabCRoute
+  LabDRoute: typeof LabDRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -232,6 +245,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LabCRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/lab/d': {
+      id: '/lab/d'
+      path: '/lab/d'
+      fullPath: '/lab/d'
+      preLoaderRoute: typeof LabDRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -246,6 +266,7 @@ const rootRouteChildren: RootRouteChildren = {
   LabARoute: LabARoute,
   LabBRoute: LabBRoute,
   LabCRoute: LabCRoute,
+  LabDRoute: LabDRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
