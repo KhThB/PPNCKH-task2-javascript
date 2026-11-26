@@ -26,7 +26,7 @@ const args = Object.fromEntries(
 );
 const BASE = args.base ?? "http://127.0.0.1:4173";
 const RUNS = Number(args.runs ?? 5);
-const PATHS = (args.paths ?? "/lab/a,/lab/b,/lab/c").split(",");
+const PATHS = (args.paths ?? "/lab/a,/lab/b,/lab/c,/lab/d").split(",");
 const OUT = args.out ?? "artifacts/task2-js/raw";
 const CHROME = args.chrome; // để trống thì dùng Chromium của Playwright
 // Tài nguyên bên thứ ba bị chặn để mọi phiên bản đo trong cùng điều kiện mạng.
@@ -67,7 +67,8 @@ for (const path of PATHS) {
   console.log(
     `${path}: req=${med((r) => r.js.requests)}, transferred=${med((r) => r.js.transferred)} B, ` +
       `resource=${med((r) => r.js.resource)} B, unused=${med((r) => r.coverage.unusedBytes)} B, ` +
-      `script=${med((r) => r.metrics.ScriptDuration)} ms`,
+      `script=${med((r) => r.metrics.ScriptDuration)} ms, img=${med((r) => r.images.requests)} req / ` +
+      `${med((r) => r.images.transferred)} B, page=${med((r) => r.page.transferred)} B`,
   );
 }
 
@@ -137,6 +138,8 @@ async function measure(path, run) {
   const jsRequests = [...requests.values()].filter(
     (r) => r.type === "Script" || /javascript/.test(r.mime ?? ""),
   );
+  const imgRequests = [...requests.values()].filter((r) => r.type === "Image");
+  const allRequests = [...requests.values()];
   const own = coverage.filter((c) => c.url.startsWith(BASE));
   let total = 0;
   let used = 0;
@@ -169,6 +172,15 @@ async function measure(path, run) {
         transferred: r.transferred,
         resource: r.resource,
       })),
+    },
+    images: {
+      requests: imgRequests.length,
+      transferred: sum(imgRequests.map((r) => r.transferred ?? 0)),
+      files: imgRequests.map((r) => ({ url: r.url.replace(BASE, ""), transferred: r.transferred })),
+    },
+    page: {
+      requests: allRequests.length,
+      transferred: sum(allRequests.map((r) => r.transferred ?? 0)),
     },
     coverage: {
       totalBytes: total,
